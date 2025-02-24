@@ -54,7 +54,7 @@ Relacionamento:
 - Chave Primária: COD_MECANICO
 - Contém informações pessoais do mecânico e sua especialidade.
 - Possui uma chave estrangeira EQUIPE_MECANICOS_ID_EQUIPE para indicar a qual equipe pertence.
-- 
+ 
 Relacionamento:
 - Um mecânico pertence a apenas uma equipe (N:1 com EQUIPE_MECANICOS).
 - Uma equipe pode ter vários mecânicos (1:N).
